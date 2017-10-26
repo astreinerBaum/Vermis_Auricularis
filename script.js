@@ -1,34 +1,35 @@
 
 function humans() {
-  let winPop = [
     window.open(
       'popups/human2.html',
-      'human2',
+      '_blank',
       'width=600, height=250, scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=50,top=200'
-    ),
+    );
     window.open(
       'popups/human1.html',
-      'human1',
+      '_blank',
       'width=600, height=150, scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=50,top=200'
-    )
-  ]
+    );
+  window.clearTimeout(humans_time);
   return false;
 }
 
 function survive() {
     window.open(
       'popups/survive.html',
-      'survive',
+      '_blank',
       'width=600, height=150, scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=300,top=450'
     );
+    window.clearTimeout(survive_time);
   return false;
 }
 
 function life() {
     window.open(
       'popups/life.html',
-      'life',
-      'width=600, height=150, scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=200,top=500'
+      '_blank',
+      'width=500, height=150, scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=200,top=500'
     );
+    window.clearTimeout(life_time);
   return false;
 }

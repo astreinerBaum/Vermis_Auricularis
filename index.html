@@ -3,6 +3,12 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <!-- facebook  -->
+  <meta property="og:url" content="images/preview.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vermis Auricularis">
+  <meta property="og:description" content="In the following treatise, we shall deal with the globally prevalent, but often absent-estimated, parasite vermis auricularis">
   <title>Vermis Auricularis</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -94,5 +100,40 @@
   </div>
 </body>
 <script src="script.js"></script>
+<!-- <script>
+var popupBlockerChecker = {
+        check: function(popup_window){
+            var _scope = this;
+            if (popup_window) {
+                if(/chrome/.test(navigator.userAgent.toLowerCase())){
+                    setTimeout(function () {
+                        _scope._is_popup_blocked(_scope, popup_window);
+                     },200);
+                }else{
+                    popup_window.onload = function () {
+                        _scope._is_popup_blocked(_scope, popup_window);
+                    };
+                }
+            }else{
+                _scope._displayError();
+            }
+        },
+        _is_popup_blocked: function(scope, popup_window){
+            if ((popup_window.innerHeight > 0)==false){ scope._displayError(); }
+            else {
+              setTimeout(function(){
+                popup.close();
+              }, 500);
+            }
+        },
+        _displayError: function(){
+            alert("Please allow pop ups for this site.")
+        }
+    };
+
+  var popup = window.open("popups/welcome.html", "_blank", "toolbar=no,scrollbars=yes,resizable=no,top=1,left=1,width=250,height=40");
+  popupBlockerChecker.check(popup);
+
+  </script> -->
 
 </html>
