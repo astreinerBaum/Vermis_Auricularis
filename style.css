@@ -2,6 +2,10 @@ html {
   font-size: 100%;
 }
 
+body{
+  margin: 0;
+}
+
 .content {
   position: relative;
   margin: 0 auto;
@@ -9,6 +13,7 @@ html {
   color: #222;
   direction: ltr;
   max-width: 800px;
+  transition: opacity .25s ease-in-out;
 }
 
 .firstHeading {
@@ -23,8 +28,8 @@ html {
 
 .bodyContent {
   font-family: sans-serif;
-  line-height: 1.6;
-  font-size: 0.9em;
+  line-height: 1.7;
+  font-size: 1em;
 }
 
 .toc {
@@ -94,7 +99,6 @@ li {
     display: table-cell;
     text-decoration: inherit;
 }
-
 
 .end{
   margin-top: 1em;
