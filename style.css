@@ -1,0 +1,105 @@
+html {
+  font-size: 100%;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  padding: 1.25em 1.5em 1.5em 1.5em;
+  color: #222;
+  direction: ltr;
+  max-width: 800px;
+}
+
+.firstHeading {
+  font-size: 1.8em;
+  font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+  font-weight: normal;
+  line-height: 1.3;
+  margin-bottom: 0.25em;
+  padding: 0;
+  border-bottom: 1px solid #a2a9b1;
+}
+
+.bodyContent {
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-size: 0.9em;
+}
+
+.toc {
+  display: inline-block;
+  display: table;
+  zoom: 1;
+  padding: 7px;
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  font-size: 95%;
+}
+
+.toctitle {
+  text-align: center;
+}
+
+h2 {
+  display: inline;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0645ad;
+  background: none;
+}
+
+a:visited {
+  color: #0b0080;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+  list-style-image: none;
+  margin-left: 0;
+  padding: 0;
+  margin: 0.3em 0;
+  float: none;
+}
+
+li {
+  margin-bottom: 0.1em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.tocnumber{
+  padding-right: 0.5em;
+  color: #222;
+}
+
+.toctext{
+    display: table-cell;
+    text-decoration: inherit;
+}
+
+
+.end{
+  margin-top: 1em;
+  padding-top: 0.25em;
+  border-top: 1px solid #a2a9b1;
+  text-align: center;
+  width: 100%;
+}
