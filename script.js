@@ -13,46 +13,62 @@ setInterval(checkPageFocus, 200);
 // console.log("y = " + screen.height);
 
 function humans() {
-  window.open(
-    'popups/human3.html',
-    '_blank',
-    'width=600, height=250,left=50,top=200'
-  );
-  window.open(
-    'popups/human2.html',
-    '_blank',
-    'width=500, height=200, left=600,top=200'
-  );
-  window.open(
-    'popups/human1.html',
-    '_blank',
-    'width=600, height=150, left=50,top=200'
-  );
+  setTimeout(function() {
+    window.open(
+      'popups/human3.html',
+      '_blank',
+      'width=600, height=250,left=50,top=200'
+    )
+  }, 0);
+  setTimeout(function() {
+    window.open(
+      'popups/human2.html',
+      '_blank',
+      'width=500, height=200, left=600,top=200'
+    )
+  }, 0);
+  setTimeout(function() {
+    window.open(
+      'popups/human1.html',
+      '_blank',
+      'width=600, height=150, left=50,top=200'
+    )
+  }, 0);
+
   window.clearTimeout(humans_time);
   return false;
 }
 
 function survive() {
-  window.open(
-    'popups/survive2.html',
-    '_blank',
-    'width=600, height=150, left=300,top=450'
-  );
-  window.open(
-    'popups/survive.html',
-    '_blank',
-    'width=600, height=150, left=300,top=450'
-  );
+  setTimeout(function() {
+    window.open(
+      'popups/survive2.html',
+      '_blank',
+      'width=600, height=150, left=300,top=450'
+    )
+  }, 0);
+  setTimeout(function() {
+    window.open(
+      'popups/survive.html',
+      '_blank',
+      'width=600, height=150, left=300,top=450'
+    )
+  }, 0);
+
   window.clearTimeout(survive_time);
   return false;
 }
 
 function life() {
-  window.open(
-    'popups/life.html',
-    '_blank',
-    'width=500, height=150, left=200,top=500'
-  );
+  setTimeout(function() {
+    window.open(
+      'popups/life.html',
+      '_blank',
+      'width=500, height=150, left=200,top=500'
+    )
+  }, 0);
+
+
   setTimeout(function() {
     window.open(
       'popups/life2.html',
@@ -65,11 +81,14 @@ function life() {
 }
 
 function brain() {
-  window.open(
-    'popups/brain.html',
-    '_blank',
-    'width=400, height=150, left=0,top=200'
-  );
+  setTimeout(function() {
+    window.open(
+      'popups/brain.html',
+      '_blank',
+      'width=400, height=150, left=0,top=200'
+    )
+  }, 0);
+
   setTimeout(function() {
     window.open(
       'popups/brain2.html',
@@ -82,11 +101,14 @@ function brain() {
 }
 
 function reason() {
-  window.open(
-    'popups/reason.html',
-    '_blank',
-    'width=600, height=200, left=400,top=100'
-  );
+  setTimeout(function() {
+    window.open(
+      'popups/reason.html',
+      '_blank',
+      'width=600, height=200, left=400,top=100'
+    )
+  }, 0);
+
   setTimeout(function() {
     window.open(
       'popups/reason2.html',
@@ -99,11 +121,13 @@ function reason() {
 }
 
 function friend() {
-  window.open(
-    'popups/friend.html',
-    '_blank',
-    'width=500, height=300, left=400,top=400'
-  );
+  setTimeout(function() {
+    window.open(
+      'popups/friend.html',
+      '_blank',
+      'width=500, height=300, left=400,top=400'
+    )
+  }, 0);
   setTimeout(function() {
     window.open(
       'popups/friend2.html',
@@ -261,28 +285,28 @@ function discharge() {
       '_blank',
       'width=200, height=200, left=400,top=220'
     )
-  }, 400*2);
+  }, 400 * 2);
   setTimeout(function() {
     window.open(
       'popups/discharge.html',
       '_blank',
       'width=200, height=200, left=450,top=230'
     )
-  }, 400*3);
+  }, 400 * 3);
   setTimeout(function() {
     window.open(
       'popups/discharge.html',
       '_blank',
       'width=200, height=200, left=500,top=240'
     )
-  }, 400*4);
+  }, 400 * 4);
   setTimeout(function() {
     window.open(
       'popups/discharge.html',
       '_blank',
       'width=200, height=200, left=550,top=250'
     )
-  }, 400*5);
+  }, 400 * 5);
 
   setTimeout(function() {
     window.open(
@@ -290,7 +314,7 @@ function discharge() {
       '_blank',
       'width=650, height=300, left=360,top=100'
     )
-  }, 400*5+1000);
+  }, 400 * 5 + 1000);
   window.clearTimeout(discharge_time);
   return false;
 }
@@ -349,21 +373,21 @@ function work() {
       '_blank',
       'width=250, height=250, left=240,top=460'
     )
-  }, 400*2);
+  }, 400 * 2);
   setTimeout(function() {
     window.open(
       'popups/work.html',
       '_blank',
       'width=250, height=250, left=340,top=480'
     )
-  }, 400*3);
+  }, 400 * 3);
   setTimeout(function() {
     window.open(
       'popups/work.html',
       '_blank',
       'width=250, height=250, left=440,top=500'
     )
-  }, 400*4);
+  }, 400 * 4);
   window.clearTimeout(work_time);
   return false;
 }
@@ -425,17 +449,18 @@ function give() {
       '_blank',
       'width=600, height=250, left=100,top=210'
     )
-  },1000);
+  }, 1000);
   setTimeout(function() {
     window.open(
       'popups/give3.html',
       '_blank',
       'width=600, height=250, left=100,top=310'
     )
-  },2000);
+  }, 2000);
   window.clearTimeout(give_time);
   return false;
 }
+
 function many() {
   setTimeout(function() {
     window.open(
@@ -450,14 +475,14 @@ function many() {
       '_blank',
       'width=500, height=150, left=300,top=20'
     )
-  },400);
+  }, 400);
   setTimeout(function() {
     window.open(
       'popups/many2.html',
       '_blank',
       'width=600, height=250, left=500,top=300'
     )
-  },1400);
+  }, 1400);
   window.clearTimeout(many_time);
   return false;
 }
